@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button {
+}
+.edit-button {
+  min-width: 50px;
+}
+.add-button {
+  /* border-top-left-radius: 1vh; */
+  min-width: 70px;
+  border-top-right-radius: 1vh;
+  border-bottom-right-radius: 1vh;
+}
+
+.border-radius {
+  border-top-left-radius: 1vh;
+  border-bottom-left-radius: 1vh;
+}
+
+.todo-container {
+  /* box-shadow:  rgba(40, 40, 40, 0.09) 0px -3px 5px,rgba(50, 50, 50, 0.256) 0px 5px 55px, rgba(150, 150, 150, 0.12) 0px -12px 30px, rgba(102, 102, 102, 0.12) 0px 4px 6px, rgba(104, 104, 104, 0.17) 0px 2px 0px, rgba(107, 107, 107, 0.09) 0px -3px 5px;
+  border-radius: 10px; */
+  height: 70%;
+  overflow-y: auto;
+}
+.todo-container::-webkit-scrollbar {
+  background-color: #bbf7d0;
+  border-radius: 10px;
+  padding: 2px;
+  width: 10px;
+}
+
+.todo-container::-webkit-scrollbar-thumb {
+  background-color: #c19a9a;
+  border-radius: 6px;
+  border: 1px solid #bbf7d0;
+}
+
+.todo-container::-webkit-scrollbar-track {
+  background-color: #7b4848;
+}
+
+.input-container {
+  box-shadow: rgba(40, 40, 40, 0.09) 0px -3px 5px,
+    rgba(50, 50, 50, 0.256) 0px 5px 55px,
+    rgba(150, 150, 150, 0.12) 0px -12px 30px,
+    rgba(102, 102, 102, 0.12) 0px 4px 6px, rgba(104, 104, 104, 0.17) 0px 2px 0px,
+    rgba(107, 107, 107, 0.09) 0px -3px 5px;
+}
